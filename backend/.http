@@ -1,0 +1,14 @@
+### POST     | create single user
+POST http://localhost:5000/api/users
+Content-Type: application/json
+
+
+  {
+    "name": "Emma",
+    "surname": "Cooper",
+    "email": "emma.cooper@example.com",
+    "age": "1997-09-07"
+  }
+
+### GET      | get all users in our user.db database
+GET http://localhost:5000/api/users
